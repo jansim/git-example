@@ -6,7 +6,8 @@ our_data %>%
   ggplot(
     aes(
       x = cyl,
-      y = hp
+      y = hp,
+      color = factor(vs)
     )
   ) +
   geom_point() +
