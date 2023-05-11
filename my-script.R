@@ -9,4 +9,5 @@ our_data %>%
       y = hp
     )
   ) +
-  geom_point()
+  geom_point() +
+  theme_classic()
